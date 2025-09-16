@@ -17,20 +17,21 @@ Python ETL → Parquet → Streamlit dashboard for multi-player match analytics,
 ---
 
 ## Project structure
-lol-ds/
-├─ app/
-│ └─ app.py # Streamlit app
-├─ src/
-│ ├─ init.py # package marker
-│ ├─ etl_http_riot.py # Riot API ETL (HTTP)
-│ ├─ build_group_view.py # Merge participants+matches+roster → participants_group_latest.parquet
-│ ├─ features.py # Feature helpers (optional)
-│ └─ train_win_model.py # Baseline model (optional)
-├─ data/ # (gitignored) parquet output lives here
-├─ artifacts/ # (gitignored) trained models
-├─ reports/ # (gitignored) CSV exports
-├─ riot_ids.yaml # Your friends' Riot IDs (source list)
-├─ requirements.txt # Lean runtime deps
-├─ .env.example # Template env (no secrets)
-├─ .gitignore
-└─ README.md
+- lol-ds/
+- ├─ app/
+- │ └─ app.py # Streamlit app
+- ├─ src/
+- │ ├─ init.py # Package marker
+- │ ├─ etl_http_riot.py # Riot API ETL (HTTP)
+- │ ├─ build_group_view.py # Merge participants+matches+roster → participants_group_latest.parquet
+- │ ├─ features.py # Feature helpers (optional)
+- │ └─ train_win_model.py # Baseline model (optional)
+- ├─ data/ # (gitignored) parquet output lives here
+- ├─ artifacts/ # (gitignored) trained models
+- ├─ reports/ # (gitignored) CSV exports
+- ├─ riot_ids.yaml # Your friends' Riot IDs (source list)
+- ├─ requirements.txt # Lean runtime deps
+- ├─ .env.example # Template env (no secrets)
+- ├─ .gitignore
+- └─ README.md
+
