@@ -1,0 +1,11 @@
+# Dev tools / testing / linting
+pytest==8.4.2
+flake8==7.3.0
+mccabe==0.7.0
+pycodestyle==2.14.0
+pyflakes==3.4.0
+GitPython==3.1.45
+
+# Optional: formatting/linting combo 
+# black==24.10.0
+# ruff==0.6.9

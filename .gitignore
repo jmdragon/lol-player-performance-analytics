@@ -1,0 +1,25 @@
+# venv & caches
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# secrets
+.env
+.env.*
+
+# local/editor
+.vscode/
+.DS_Store
+Thumbs.db
+
+# generated data & outputs
+data/
+artifacts/
+reports/
+logs/
+tmp/
+.streamlit/
+
+# allow a tiny sample parquet if you want to include one
+!data/sample_participants_group.parquet
