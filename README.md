@@ -5,7 +5,7 @@ Python ETL → Parquet → Streamlit dashboard for multi-player match analytics,
 
 ---
 
-## 🔍 What this does
+## What this does
 - **Extract** match data from the Riot API (Riot IDs → PUUID → matches & details)
 - **Transform** raw JSON into tidy Parquet tables (`matches`, `participants`, `participants_group`)
 - **Load** into an interactive **Streamlit** dashboard with:
@@ -16,7 +16,7 @@ Python ETL → Parquet → Streamlit dashboard for multi-player match analytics,
 
 ---
 
-## 🗂 Project structure
+## Project structure
 lol-ds/
 ├─ app/
 │ └─ app.py # Streamlit app
